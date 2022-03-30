@@ -1,2 +1,3 @@
 
-01000110 01010101 01000011 01001011 01011001 01001111 01010101 00100001
+print([2]+[number for number in range(3, int(input('amount:'))+1, 2) if not any([(number % factor == 0) for factor in range(3,round(number**0.5+1), 2)])])
+
